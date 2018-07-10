@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CaY-Nb-iyU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Baseline standard spacing" minToolsVersion="9.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="mVR-cW-5eg">
+            <objects>
+                <viewController id="CaY-Nb-iyU" customClass="SplashViewController" customModule="ABC_Book" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oe3-lh-2Zq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Puq-zp-HXB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vH9-TC-sIP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashBG" translatesAutoresizingMaskIntoConstraints="NO" id="iR6-wu-MY6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ABCSplash" translatesAutoresizingMaskIntoConstraints="NO" id="OC9-bu-zih">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OC9-bu-zih" secondAttribute="height" multiplier="1:1" id="AgJ-8H-rw0"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="dgV-YK-Nx9">
+                                <rect key="frame" x="159.5" y="475.5" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dgV-YK-Nx9" secondAttribute="height" multiplier="1:1" id="f9d-Ag-PRm"/>
+                                </constraints>
+                                <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OC9-bu-zih" firstAttribute="baseline" secondItem="dgV-YK-Nx9" secondAttribute="firstBaseline" constant="8" symbolType="layoutAnchor" id="1Yc-3d-n1X"/>
+                            <constraint firstItem="iR6-wu-MY6" firstAttribute="top" secondItem="vH9-TC-sIP" secondAttribute="top" id="609-uj-sdo"/>
+                            <constraint firstItem="iR6-wu-MY6" firstAttribute="centerX" secondItem="vH9-TC-sIP" secondAttribute="centerX" id="66M-Tm-OMi"/>
+                            <constraint firstAttribute="trailing" secondItem="iR6-wu-MY6" secondAttribute="trailing" id="Di6-TJ-w3q"/>
+                            <constraint firstItem="iR6-wu-MY6" firstAttribute="leading" secondItem="vH9-TC-sIP" secondAttribute="leading" id="PvK-lX-InY"/>
+                            <constraint firstItem="Puq-zp-HXB" firstAttribute="top" secondItem="iR6-wu-MY6" secondAttribute="bottom" id="QSb-UH-qOF"/>
+                            <constraint firstItem="dgV-YK-Nx9" firstAttribute="width" secondItem="vH9-TC-sIP" secondAttribute="width" multiplier="0.15" id="VXE-T2-V6V"/>
+                            <constraint firstItem="dgV-YK-Nx9" firstAttribute="centerX" secondItem="vH9-TC-sIP" secondAttribute="centerX" id="X1F-Wg-ltq"/>
+                            <constraint firstItem="OC9-bu-zih" firstAttribute="centerY" secondItem="vH9-TC-sIP" secondAttribute="centerY" id="ptP-0F-lnP"/>
+                            <constraint firstItem="OC9-bu-zih" firstAttribute="width" secondItem="vH9-TC-sIP" secondAttribute="width" multiplier="0.8" id="qhS-oS-tzY"/>
+                            <constraint firstItem="iR6-wu-MY6" firstAttribute="centerY" secondItem="vH9-TC-sIP" secondAttribute="centerY" id="qs0-eQ-doI"/>
+                            <constraint firstItem="OC9-bu-zih" firstAttribute="centerX" secondItem="vH9-TC-sIP" secondAttribute="centerX" id="u3n-tR-vgB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="i3l-vE-lhI" kind="show" identifier="ShowMain" id="vUH-BO-gFs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nti-8w-djz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779" y="1068"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="5Sz-St-3kn">
+            <objects>
+                <viewController title="Test" id="i3l-vE-lhI" customClass="ViewController" customModule="ABC_Book" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fHJ-AR-VOT"/>
+                        <viewControllerLayoutGuide type="bottom" id="4KT-jv-l1w"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="64r-WP-oLq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyX-3E-Pt3" userLabel="Banner View" customClass="GADBannerView">
+                                <rect key="frame" x="16.5" y="613.5" width="342" height="53.5"/>
+                                <color key="backgroundColor" red="0.039215686274509803" green="0.41568627450980394" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jyX-3E-Pt3" secondAttribute="height" multiplier="32:5" id="HSV-jD-BHm"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="for" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="30" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ma-6f-ABi">
+                                <rect key="frame" x="154.5" y="138.5" width="66.5" height="67"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="52"/>
+                                <color key="textColor" red="0.88235294119999996" green="0.1529411765" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="99"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="A" translatesAutoresizingMaskIntoConstraints="NO" id="BYm-ra-OFo">
+                                <rect key="frame" x="16" y="210.5" width="343" height="307"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="85" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B7t-A7-uEL">
+                                <rect key="frame" x="30" y="20" width="112.5" height="167.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="90"/>
+                                <color key="textColor" red="1" green="0.078431372549019607" blue="0.082352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.70090432363013699" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="4"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="220"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Apple" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="140" translatesAutoresizingMaskIntoConstraints="NO" id="pwF-4g-AkB">
+                                <rect key="frame" x="16" y="538" width="343" height="67"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                <color key="textColor" red="0.88235294119999996" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.66666666669999997" green="0.1176470588" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="100"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="pwF-4g-AkB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="64r-WP-oLq" secondAttribute="leadingMargin" id="42Z-L0-F7W"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="B7t-A7-uEL" secondAttribute="trailing" multiplier="1.1" constant="-1" id="7W1-ne-Jvh"/>
+                            <constraint firstAttribute="trailing" secondItem="BYm-ra-OFo" secondAttribute="trailing" constant="16" id="87u-CD-zo9"/>
+                            <constraint firstItem="8Ma-6f-ABi" firstAttribute="height" secondItem="64r-WP-oLq" secondAttribute="height" multiplier="0.1" id="DFY-oa-1RQ"/>
+                            <constraint firstItem="B7t-A7-uEL" firstAttribute="width" secondItem="64r-WP-oLq" secondAttribute="width" multiplier="0.3" id="DIc-T9-Npz"/>
+                            <constraint firstItem="8Ma-6f-ABi" firstAttribute="centerX" secondItem="64r-WP-oLq" secondAttribute="centerX" id="Emx-aK-L5L"/>
+                            <constraint firstItem="BYm-ra-OFo" firstAttribute="leading" secondItem="64r-WP-oLq" secondAttribute="leading" constant="16" id="Hix-a1-2E7"/>
+                            <constraint firstItem="pwF-4g-AkB" firstAttribute="height" secondItem="64r-WP-oLq" secondAttribute="height" multiplier="0.1" id="Kri-s2-eU8"/>
+                            <constraint firstItem="pwF-4g-AkB" firstAttribute="centerX" secondItem="64r-WP-oLq" secondAttribute="centerX" id="LUr-b2-SQE"/>
+                            <constraint firstItem="B7t-A7-uEL" firstAttribute="leading" secondItem="64r-WP-oLq" secondAttribute="leading" constant="30" id="LzJ-XB-ks2"/>
+                            <constraint firstItem="BYm-ra-OFo" firstAttribute="top" secondItem="8Ma-6f-ABi" secondAttribute="bottom" constant="5" id="PbC-Zb-3eZ"/>
+                            <constraint firstItem="BYm-ra-OFo" firstAttribute="centerX" secondItem="64r-WP-oLq" secondAttribute="centerX" id="QnS-yH-ozm"/>
+                            <constraint firstItem="4KT-jv-l1w" firstAttribute="top" secondItem="jyX-3E-Pt3" secondAttribute="bottom" id="R0v-8P-cLe"/>
+                            <constraint firstItem="pwF-4g-AkB" firstAttribute="top" secondItem="BYm-ra-OFo" secondAttribute="bottom" multiplier="1.04" id="YBo-xR-vtK"/>
+                            <constraint firstItem="B7t-A7-uEL" firstAttribute="top" secondItem="64r-WP-oLq" secondAttribute="top" constant="20" symbolic="YES" id="Z9I-Mn-dp5"/>
+                            <constraint firstItem="jyX-3E-Pt3" firstAttribute="centerX" secondItem="64r-WP-oLq" secondAttribute="centerX" id="bzu-Ji-ISV"/>
+                            <constraint firstItem="jyX-3E-Pt3" firstAttribute="height" secondItem="64r-WP-oLq" secondAttribute="height" multiplier="0.08" id="dcG-fN-FC4"/>
+                            <constraint firstItem="8Ma-6f-ABi" firstAttribute="firstBaseline" secondItem="B7t-A7-uEL" secondAttribute="baseline" multiplier="0.7" id="g2n-MD-TxE">
+                                <variation key="heightClass=regular-widthClass=compact" constant="68" symbolType="layoutAnchor"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                            </constraint>
+                            <constraint firstItem="jyX-3E-Pt3" firstAttribute="top" secondItem="BYm-ra-OFo" secondAttribute="bottom" multiplier="1.08" constant="55" id="m54-9t-p0D">
+                                <variation key="heightClass=regular-widthClass=regular" constant="95"/>
+                            </constraint>
+                            <constraint firstItem="pwF-4g-AkB" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="64r-WP-oLq" secondAttribute="trailingMargin" id="mUD-Ah-kEE"/>
+                            <constraint firstItem="BYm-ra-OFo" firstAttribute="height" secondItem="64r-WP-oLq" secondAttribute="height" multiplier="0.46" id="wV0-Xe-otE">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="m54-9t-p0D"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="m54-9t-p0D"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="0z0-Ts-5CG" appends="YES" id="oJ9-AF-oYA"/>
+                            <outletCollection property="gestureRecognizers" destination="7Oe-qd-THe" appends="YES" id="hYH-dZ-v0Q"/>
+                            <outletCollection property="gestureRecognizers" destination="XdU-fb-lSz" appends="YES" id="I3G-dX-Q5H"/>
+                            <outletCollection property="gestureRecognizers" destination="fxx-IW-MqB" appends="YES" id="dwB-AE-2wJ"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="BannerView" destination="jyX-3E-Pt3" id="4Ff-Ts-Grc"/>
+                        <outlet property="BigAlpha" destination="B7t-A7-uEL" id="kfe-je-uus"/>
+                        <outlet property="alphaDescription" destination="pwF-4g-AkB" id="vGb-Ug-YIe"/>
+                        <outlet property="bigAlpha" destination="B7t-A7-uEL" id="99X-OT-USo"/>
+                        <outlet property="forLbl" destination="8Ma-6f-ABi" id="tiv-GA-bbX"/>
+                        <outlet property="imgView" destination="BYm-ra-OFo" id="9tS-hv-Dic"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMU-4j-YCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="right" id="7Oe-qd-THe" userLabel="Swipe Back">
+                    <connections>
+                        <action selector="swipeBack:" destination="i3l-vE-lhI" id="Fj1-oQ-FwH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer delaysTouchesBegan="YES" direction="left" id="0z0-Ts-5CG" userLabel="Swipe Next">
+                    <connections>
+                        <action selector="swipeNext:" destination="i3l-vE-lhI" id="CDp-3y-HaA"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer delaysTouchesBegan="YES" id="XdU-fb-lSz">
+                    <connections>
+                        <action selector="tapPressed:" destination="i3l-vE-lhI" id="gn3-Sy-ef8"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="fxx-IW-MqB" userLabel="Edge Pan Next">
+                    <rectEdge key="edges" right="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="0z0-Ts-5CG" id="3CJ-Xo-Wlq"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="fyp-6K-vo0" userLabel="Edge Pan Back">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="7Oe-qd-THe" id="KLQ-V5-KOy"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3031.875" y="1100.7042253521126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="A" width="512" height="512"/>
+        <image name="ABCSplash" width="320" height="320"/>
+        <image name="splashBG" width="278" height="480"/>
+    </resources>
+</document>

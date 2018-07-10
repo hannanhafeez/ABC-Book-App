@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4926D720DB985400E97B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4926D620DB985400E97B9D /* AppDelegate.swift */; };
+		4A4926DC20DB985400E97B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4926DA20DB985400E97B9D /* Main.storyboard */; };
+		4A4926DF20DB985400E97B9D /* ABC_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A4926DD20DB985400E97B9D /* ABC_Book.xcdatamodeld */; };
+		4A4926E120DB985400E97B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4926E020DB985400E97B9D /* Assets.xcassets */; };
+		4A4926E420DB985400E97B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4926E220DB985400E97B9D /* LaunchScreen.storyboard */; };
+		4A4926EF20DB985400E97B9D /* ABC_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4926EE20DB985400E97B9D /* ABC_BookTests.swift */; };
+		4A4926FA20DB985400E97B9D /* ABC_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4926F920DB985400E97B9D /* ABC_BookUITests.swift */; };
+		4A56C56220E237D400382121 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54820E237D400382121 /* B.mp3 */; };
+		4A56C56320E237D400382121 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54920E237D400382121 /* C.mp3 */; };
+		4A56C56420E237D400382121 /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54A20E237D400382121 /* D.mp3 */; };
+		4A56C56520E237D400382121 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54B20E237D400382121 /* E.mp3 */; };
+		4A56C56620E237D400382121 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54C20E237D400382121 /* F.mp3 */; };
+		4A56C56720E237D400382121 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54D20E237D400382121 /* G.mp3 */; };
+		4A56C56820E237D400382121 /* H.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54E20E237D400382121 /* H.mp3 */; };
+		4A56C56920E237D400382121 /* I.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C54F20E237D400382121 /* I.mp3 */; };
+		4A56C56A20E237D400382121 /* J.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55020E237D400382121 /* J.mp3 */; };
+		4A56C56B20E237D400382121 /* K.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55120E237D400382121 /* K.mp3 */; };
+		4A56C56C20E237D400382121 /* L.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55220E237D400382121 /* L.mp3 */; };
+		4A56C56D20E237D400382121 /* M.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55320E237D400382121 /* M.mp3 */; };
+		4A56C56E20E237D400382121 /* N.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55420E237D400382121 /* N.mp3 */; };
+		4A56C56F20E237D400382121 /* O.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55520E237D400382121 /* O.mp3 */; };
+		4A56C57020E237D400382121 /* P.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55620E237D400382121 /* P.mp3 */; };
+		4A56C57120E237D400382121 /* Q.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55720E237D400382121 /* Q.mp3 */; };
+		4A56C57220E237D400382121 /* R.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55820E237D400382121 /* R.mp3 */; };
+		4A56C57320E237D400382121 /* S.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55920E237D400382121 /* S.mp3 */; };
+		4A56C57420E237D400382121 /* T.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55A20E237D400382121 /* T.mp3 */; };
+		4A56C57520E237D400382121 /* U.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55B20E237D400382121 /* U.mp3 */; };
+		4A56C57620E237D400382121 /* V.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55C20E237D400382121 /* V.mp3 */; };
+		4A56C57720E237D400382121 /* W.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55D20E237D400382121 /* W.mp3 */; };
+		4A56C57820E237D400382121 /* X.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C55E20E237D400382121 /* X.mp3 */; };
+		4A56C57A20E237D400382121 /* Z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A56C56020E237D400382121 /* Z.mp3 */; };
+		4A5A6F6820E6464000F36A8E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A6F6720E6464000F36A8E /* SplashViewController.swift */; };
+		4A89BE3320E2555F0012811A /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A89BE3120E2555F0012811A /* A.mp3 */; };
+		4A89BE3420E2555F0012811A /* Y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A89BE3220E2555F0012811A /* Y.mp3 */; };
+		4A8B077120DD278C00245BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B077020DD278C00245BBC /* ViewController.swift */; };
+		9298FE167E9DD60072FAF29F /* Pods_ABC_BookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DED11FD6160C84DBD15A26A /* Pods_ABC_BookUITests.framework */; };
+		92DFC545BD2D4761BC095554 /* Pods_ABC_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E7FE9C0E04FB80733AAB0A /* Pods_ABC_Book.framework */; };
+		F4C44BD473BF784AF8C6613F /* Pods_ABC_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41ADBCA0DC7F7885020AFB7 /* Pods_ABC_BookTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A4926EB20DB985400E97B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4926CB20DB985300E97B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4926D220DB985300E97B9D;
+			remoteInfo = "ABC Book";
+		};
+		4A4926F620DB985400E97B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A4926CB20DB985300E97B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A4926D220DB985300E97B9D;
+			remoteInfo = "ABC Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017DDAFC844BA4D63B18EA0A /* Pods-ABC Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Book.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABC Book/Pods-ABC Book.debug.xcconfig"; sourceTree = "<group>"; };
+		084316F7B661992EB76EF7C8 /* Pods-ABC Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Book.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABC Book/Pods-ABC Book.release.xcconfig"; sourceTree = "<group>"; };
+		36C3FB955164D8C109ACEF2A /* Pods-ABC BookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC BookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABC BookUITests/Pods-ABC BookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48E527404860D344FA1A3668 /* Pods-ABC BookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC BookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABC BookUITests/Pods-ABC BookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4926D320DB985400E97B9D /* ABC Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABC Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4926D620DB985400E97B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A4926DB20DB985400E97B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A4926DE20DB985400E97B9D /* ABC_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ABC_Book.xcdatamodel; sourceTree = "<group>"; };
+		4A4926E020DB985400E97B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A4926E320DB985400E97B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A4926E520DB985400E97B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4926EA20DB985400E97B9D /* ABC BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4926EE20DB985400E97B9D /* ABC_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_BookTests.swift; sourceTree = "<group>"; };
+		4A4926F020DB985400E97B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4926F520DB985400E97B9D /* ABC BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4926F920DB985400E97B9D /* ABC_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_BookUITests.swift; sourceTree = "<group>"; };
+		4A4926FB20DB985400E97B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A56C54820E237D400382121 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		4A56C54920E237D400382121 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
+		4A56C54A20E237D400382121 /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D.mp3; sourceTree = "<group>"; };
+		4A56C54B20E237D400382121 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
+		4A56C54C20E237D400382121 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
+		4A56C54D20E237D400382121 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		4A56C54E20E237D400382121 /* H.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = H.mp3; sourceTree = "<group>"; };
+		4A56C54F20E237D400382121 /* I.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = I.mp3; sourceTree = "<group>"; };
+		4A56C55020E237D400382121 /* J.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = J.mp3; sourceTree = "<group>"; };
+		4A56C55120E237D400382121 /* K.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = K.mp3; sourceTree = "<group>"; };
+		4A56C55220E237D400382121 /* L.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = L.mp3; sourceTree = "<group>"; };
+		4A56C55320E237D400382121 /* M.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = M.mp3; sourceTree = "<group>"; };
+		4A56C55420E237D400382121 /* N.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = N.mp3; sourceTree = "<group>"; };
+		4A56C55520E237D400382121 /* O.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = O.mp3; sourceTree = "<group>"; };
+		4A56C55620E237D400382121 /* P.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = P.mp3; sourceTree = "<group>"; };
+		4A56C55720E237D400382121 /* Q.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Q.mp3; sourceTree = "<group>"; };
+		4A56C55820E237D400382121 /* R.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = R.mp3; sourceTree = "<group>"; };
+		4A56C55920E237D400382121 /* S.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = S.mp3; sourceTree = "<group>"; };
+		4A56C55A20E237D400382121 /* T.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = T.mp3; sourceTree = "<group>"; };
+		4A56C55B20E237D400382121 /* U.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = U.mp3; sourceTree = "<group>"; };
+		4A56C55C20E237D400382121 /* V.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V.mp3; sourceTree = "<group>"; };
+		4A56C55D20E237D400382121 /* W.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = W.mp3; sourceTree = "<group>"; };
+		4A56C55E20E237D400382121 /* X.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = X.mp3; sourceTree = "<group>"; };
+		4A56C56020E237D400382121 /* Z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Z.mp3; sourceTree = "<group>"; };
+		4A5A6F6720E6464000F36A8E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4A89BE3120E2555F0012811A /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		4A89BE3220E2555F0012811A /* Y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Y.mp3; sourceTree = "<group>"; };
+		4A8B077020DD278C00245BBC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E7FE9C0E04FB80733AAB0A /* Pods_ABC_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7531586F56C422397598D7D7 /* Pods-ABC BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC BookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABC BookTests/Pods-ABC BookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DED11FD6160C84DBD15A26A /* Pods_ABC_BookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_BookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06EF83190201F246CD80F35 /* Pods-ABC BookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC BookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABC BookTests/Pods-ABC BookTests.release.xcconfig"; sourceTree = "<group>"; };
+		B41ADBCA0DC7F7885020AFB7 /* Pods_ABC_BookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_BookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4926D020DB985300E97B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DFC545BD2D4761BC095554 /* Pods_ABC_Book.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4926E720DB985400E97B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C44BD473BF784AF8C6613F /* Pods_ABC_BookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4926F220DB985400E97B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298FE167E9DD60072FAF29F /* Pods_ABC_BookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EAA1D6EF02262029ADB45E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E7FE9C0E04FB80733AAB0A /* Pods_ABC_Book.framework */,
+				B41ADBCA0DC7F7885020AFB7 /* Pods_ABC_BookTests.framework */,
+				9DED11FD6160C84DBD15A26A /* Pods_ABC_BookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		310256127C0BF272B48753B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				017DDAFC844BA4D63B18EA0A /* Pods-ABC Book.debug.xcconfig */,
+				084316F7B661992EB76EF7C8 /* Pods-ABC Book.release.xcconfig */,
+				7531586F56C422397598D7D7 /* Pods-ABC BookTests.debug.xcconfig */,
+				B06EF83190201F246CD80F35 /* Pods-ABC BookTests.release.xcconfig */,
+				48E527404860D344FA1A3668 /* Pods-ABC BookUITests.debug.xcconfig */,
+				36C3FB955164D8C109ACEF2A /* Pods-ABC BookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A4926CA20DB985300E97B9D = {
+			isa = PBXGroup;
+			children = (
+				4A4926D520DB985400E97B9D /* ABC Book */,
+				4A4926ED20DB985400E97B9D /* ABC BookTests */,
+				4A4926F820DB985400E97B9D /* ABC BookUITests */,
+				4A4926D420DB985400E97B9D /* Products */,
+				310256127C0BF272B48753B9 /* Pods */,
+				11EAA1D6EF02262029ADB45E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4926D420DB985400E97B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4926D320DB985400E97B9D /* ABC Book.app */,
+				4A4926EA20DB985400E97B9D /* ABC BookTests.xctest */,
+				4A4926F520DB985400E97B9D /* ABC BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4926D520DB985400E97B9D /* ABC Book */ = {
+			isa = PBXGroup;
+			children = (
+				4A4926D620DB985400E97B9D /* AppDelegate.swift */,
+				4A4926DA20DB985400E97B9D /* Main.storyboard */,
+				4A4926E020DB985400E97B9D /* Assets.xcassets */,
+				4A4926E220DB985400E97B9D /* LaunchScreen.storyboard */,
+				4A4926E520DB985400E97B9D /* Info.plist */,
+				4A4926DD20DB985400E97B9D /* ABC_Book.xcdatamodeld */,
+				4A8B077020DD278C00245BBC /* ViewController.swift */,
+				4A56C54620E2373700382121 /* Audio */,
+				4A5A6F6720E6464000F36A8E /* SplashViewController.swift */,
+			);
+			path = "ABC Book";
+			sourceTree = "<group>";
+		};
+		4A4926ED20DB985400E97B9D /* ABC BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A4926EE20DB985400E97B9D /* ABC_BookTests.swift */,
+				4A4926F020DB985400E97B9D /* Info.plist */,
+			);
+			path = "ABC BookTests";
+			sourceTree = "<group>";
+		};
+		4A4926F820DB985400E97B9D /* ABC BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A4926F920DB985400E97B9D /* ABC_BookUITests.swift */,
+				4A4926FB20DB985400E97B9D /* Info.plist */,
+			);
+			path = "ABC BookUITests";
+			sourceTree = "<group>";
+		};
+		4A56C54620E2373700382121 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4A89BE3120E2555F0012811A /* A.mp3 */,
+				4A89BE3220E2555F0012811A /* Y.mp3 */,
+				4A56C54820E237D400382121 /* B.mp3 */,
+				4A56C54920E237D400382121 /* C.mp3 */,
+				4A56C54A20E237D400382121 /* D.mp3 */,
+				4A56C54B20E237D400382121 /* E.mp3 */,
+				4A56C54C20E237D400382121 /* F.mp3 */,
+				4A56C54D20E237D400382121 /* G.mp3 */,
+				4A56C54E20E237D400382121 /* H.mp3 */,
+				4A56C54F20E237D400382121 /* I.mp3 */,
+				4A56C55020E237D400382121 /* J.mp3 */,
+				4A56C55120E237D400382121 /* K.mp3 */,
+				4A56C55220E237D400382121 /* L.mp3 */,
+				4A56C55320E237D400382121 /* M.mp3 */,
+				4A56C55420E237D400382121 /* N.mp3 */,
+				4A56C55520E237D400382121 /* O.mp3 */,
+				4A56C55620E237D400382121 /* P.mp3 */,
+				4A56C55720E237D400382121 /* Q.mp3 */,
+				4A56C55820E237D400382121 /* R.mp3 */,
+				4A56C55920E237D400382121 /* S.mp3 */,
+				4A56C55A20E237D400382121 /* T.mp3 */,
+				4A56C55B20E237D400382121 /* U.mp3 */,
+				4A56C55C20E237D400382121 /* V.mp3 */,
+				4A56C55D20E237D400382121 /* W.mp3 */,
+				4A56C55E20E237D400382121 /* X.mp3 */,
+				4A56C56020E237D400382121 /* Z.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4926D220DB985300E97B9D /* ABC Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4926FE20DB985400E97B9D /* Build configuration list for PBXNativeTarget "ABC Book" */;
+			buildPhases = (
+				910341B5AE7C266EB283ABF7 /* [CP] Check Pods Manifest.lock */,
+				4A4926CF20DB985300E97B9D /* Sources */,
+				4A4926D020DB985300E97B9D /* Frameworks */,
+				4A4926D120DB985300E97B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABC Book";
+			productName = "ABC Book";
+			productReference = 4A4926D320DB985400E97B9D /* ABC Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A4926E920DB985400E97B9D /* ABC BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A49270120DB985400E97B9D /* Build configuration list for PBXNativeTarget "ABC BookTests" */;
+			buildPhases = (
+				3FC91A04AC764F42D076BB07 /* [CP] Check Pods Manifest.lock */,
+				4A4926E620DB985400E97B9D /* Sources */,
+				4A4926E720DB985400E97B9D /* Frameworks */,
+				4A4926E820DB985400E97B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A4926EC20DB985400E97B9D /* PBXTargetDependency */,
+			);
+			name = "ABC BookTests";
+			productName = "ABC BookTests";
+			productReference = 4A4926EA20DB985400E97B9D /* ABC BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A4926F420DB985400E97B9D /* ABC BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A49270420DB985400E97B9D /* Build configuration list for PBXNativeTarget "ABC BookUITests" */;
+			buildPhases = (
+				C08F0B15786E716C6B903B04 /* [CP] Check Pods Manifest.lock */,
+				4A4926F120DB985400E97B9D /* Sources */,
+				4A4926F220DB985400E97B9D /* Frameworks */,
+				4A4926F320DB985400E97B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A4926F720DB985400E97B9D /* PBXTargetDependency */,
+			);
+			name = "ABC BookUITests";
+			productName = "ABC BookUITests";
+			productReference = 4A4926F520DB985400E97B9D /* ABC BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4926CB20DB985300E97B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					"Page A",
+					"Page B",
+				);
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Dr. Atta";
+				TargetAttributes = {
+					4A4926D220DB985300E97B9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799K435QAV;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+					};
+					4A4926E920DB985400E97B9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799K435QAV;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A4926D220DB985300E97B9D;
+					};
+					4A4926F420DB985400E97B9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799K435QAV;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A4926D220DB985300E97B9D;
+					};
+				};
+			};
+			buildConfigurationList = 4A4926CE20DB985300E97B9D /* Build configuration list for PBXProject "ABC Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A4926CA20DB985300E97B9D;
+			productRefGroup = 4A4926D420DB985400E97B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4926D220DB985300E97B9D /* ABC Book */,
+				4A4926E920DB985400E97B9D /* ABC BookTests */,
+				4A4926F420DB985400E97B9D /* ABC BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A4926D120DB985300E97B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A56C57720E237D400382121 /* W.mp3 in Resources */,
+				4A56C57520E237D400382121 /* U.mp3 in Resources */,
+				4A56C57320E237D400382121 /* S.mp3 in Resources */,
+				4A56C57120E237D400382121 /* Q.mp3 in Resources */,
+				4A56C56F20E237D400382121 /* O.mp3 in Resources */,
+				4A56C56D20E237D400382121 /* M.mp3 in Resources */,
+				4A56C57220E237D400382121 /* R.mp3 in Resources */,
+				4A56C56C20E237D400382121 /* L.mp3 in Resources */,
+				4A89BE3420E2555F0012811A /* Y.mp3 in Resources */,
+				4A89BE3320E2555F0012811A /* A.mp3 in Resources */,
+				4A56C56A20E237D400382121 /* J.mp3 in Resources */,
+				4A56C57820E237D400382121 /* X.mp3 in Resources */,
+				4A56C56920E237D400382121 /* I.mp3 in Resources */,
+				4A56C56820E237D400382121 /* H.mp3 in Resources */,
+				4A56C56E20E237D400382121 /* N.mp3 in Resources */,
+				4A56C56720E237D400382121 /* G.mp3 in Resources */,
+				4A56C56620E237D400382121 /* F.mp3 in Resources */,
+				4A56C57420E237D400382121 /* T.mp3 in Resources */,
+				4A56C56520E237D400382121 /* E.mp3 in Resources */,
+				4A56C57A20E237D400382121 /* Z.mp3 in Resources */,
+				4A56C56320E237D400382121 /* C.mp3 in Resources */,
+				4A56C56220E237D400382121 /* B.mp3 in Resources */,
+				4A56C56420E237D400382121 /* D.mp3 in Resources */,
+				4A56C56B20E237D400382121 /* K.mp3 in Resources */,
+				4A56C57620E237D400382121 /* V.mp3 in Resources */,
+				4A4926E420DB985400E97B9D /* LaunchScreen.storyboard in Resources */,
+				4A56C57020E237D400382121 /* P.mp3 in Resources */,
+				4A4926E120DB985400E97B9D /* Assets.xcassets in Resources */,
+				4A4926DC20DB985400E97B9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4926E820DB985400E97B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4926F320DB985400E97B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FC91A04AC764F42D076BB07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC BookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910341B5AE7C266EB283ABF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C08F0B15786E716C6B903B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC BookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4926CF20DB985300E97B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8B077120DD278C00245BBC /* ViewController.swift in Sources */,
+				4A4926D720DB985400E97B9D /* AppDelegate.swift in Sources */,
+				4A4926DF20DB985400E97B9D /* ABC_Book.xcdatamodeld in Sources */,
+				4A5A6F6820E6464000F36A8E /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4926E620DB985400E97B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4926EF20DB985400E97B9D /* ABC_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4926F120DB985400E97B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4926FA20DB985400E97B9D /* ABC_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A4926EC20DB985400E97B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A4926D220DB985300E97B9D /* ABC Book */;
+			targetProxy = 4A4926EB20DB985400E97B9D /* PBXContainerItemProxy */;
+		};
+		4A4926F720DB985400E97B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A4926D220DB985300E97B9D /* ABC Book */;
+			targetProxy = 4A4926F620DB985400E97B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A4926DA20DB985400E97B9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4926DB20DB985400E97B9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A4926E220DB985400E97B9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4926E320DB985400E97B9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A4926FC20DB985400E97B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A4926FD20DB985400E97B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A4926FF20DB985400E97B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017DDAFC844BA4D63B18EA0A /* Pods-ABC Book.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 799K435QAV;
+				INFOPLIST_FILE = "ABC Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebmacs.ABC-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A49270020DB985400E97B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084316F7B661992EB76EF7C8 /* Pods-ABC Book.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 799K435QAV;
+				INFOPLIST_FILE = "ABC Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebmacs.ABC-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A49270220DB985400E97B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7531586F56C422397598D7D7 /* Pods-ABC BookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799K435QAV;
+				INFOPLIST_FILE = "ABC BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebmacs.ABC-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABC Book.app/ABC Book";
+			};
+			name = Debug;
+		};
+		4A49270320DB985400E97B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06EF83190201F246CD80F35 /* Pods-ABC BookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799K435QAV;
+				INFOPLIST_FILE = "ABC BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebmacs.ABC-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABC Book.app/ABC Book";
+			};
+			name = Release;
+		};
+		4A49270520DB985400E97B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E527404860D344FA1A3668 /* Pods-ABC BookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 799K435QAV;
+				INFOPLIST_FILE = "ABC BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebmacs.ABC-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "ABC Book";
+			};
+			name = Debug;
+		};
+		4A49270620DB985400E97B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C3FB955164D8C109ACEF2A /* Pods-ABC BookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 799K435QAV;
+				INFOPLIST_FILE = "ABC BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebmacs.ABC-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "ABC Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4926CE20DB985300E97B9D /* Build configuration list for PBXProject "ABC Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4926FC20DB985400E97B9D /* Debug */,
+				4A4926FD20DB985400E97B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4926FE20DB985400E97B9D /* Build configuration list for PBXNativeTarget "ABC Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4926FF20DB985400E97B9D /* Debug */,
+				4A49270020DB985400E97B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A49270120DB985400E97B9D /* Build configuration list for PBXNativeTarget "ABC BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A49270220DB985400E97B9D /* Debug */,
+				4A49270320DB985400E97B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A49270420DB985400E97B9D /* Build configuration list for PBXNativeTarget "ABC BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A49270520DB985400E97B9D /* Debug */,
+				4A49270620DB985400E97B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A4926DD20DB985400E97B9D /* ABC_Book.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A4926DE20DB985400E97B9D /* ABC_Book.xcdatamodel */,
+			);
+			currentVersion = 4A4926DE20DB985400E97B9D /* ABC_Book.xcdatamodel */;
+			path = ABC_Book.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A4926CB20DB985300E97B9D /* Project object */;
+}
